@@ -1,6 +1,15 @@
 {
   "version": "{{version}}",
-  "datasource_name": "{{datasource_name}}",
+  "datasources": {
+    "{{datasource_name}}": {
+      "datasource_name": "{{datasource_name}}",
+      "clusters": {
+        "default": {
+          "cluster_name": "default"
+        }
+      }
+    }
+  },
   "metadata_profile": "{{metadata_profile}}",
   "measurement_duration": "{{measurement_duration}}"
 }

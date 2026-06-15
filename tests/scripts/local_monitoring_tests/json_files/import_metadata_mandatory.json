@@ -1,5 +1,14 @@
 {
   "version": "v1.0",
-  "datasource_name": "prometheus-1",
+  "datasources": {
+    "prometheus-1": {
+      "datasource_name": "prometheus-1",
+      "clusters": {
+        "default": {
+          "cluster_name": "default"
+        }
+      }
+    }
+  },
   "metadata_profile": "cluster-metadata-local-monitoring"
 }
